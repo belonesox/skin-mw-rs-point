@@ -1,0 +1,213 @@
+/*
+Theme Name: ROSA
+Theme URI: http://www.rosalab.ru/
+Version: 1.0
+Time: 2011
+*/
+
+body {
+  	font-family: Helvetica, Arial, sans-serif;
+	font-size: small;
+	font-weight: 300;
+	color: #4b4b4b;
+	background-color: #FFF; 
+	padding: 0;
+  	margin: 0;
+  	text-align: center;
+  	background: url('rosa-background.png') top center no-repeat #f5f5f5;
+}
+
+a {
+	color: #3E91CE;
+}
+
+a:hover {
+	color: #2f6e9c;
+}
+
+#global-wrapper {
+	width: 960px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	position: relative;
+	display: inline-block;
+}
+
+
+
+.box_shd {	
+     -moz-box-shadow: 0px 1px 5px #c7c7c7; /* FF3.5+ */
+  -webkit-box-shadow: 0px 1px 5px #c7c7c7; /* Saf3.0+, Chrome */
+          box-shadow: 0px 1px 5px #c7c7c7; /* Opera 10.5, IE9, Chrome 10+ */
+		  
+     -moz-border-radius: 4px; /* FF1+ */
+  -webkit-border-radius: 4px; /* Saf3-4, iOS 1+, Android 1.5+ */
+          border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome, FF4 */		  
+}
+
+
+#content-stream {
+	width: 100%;
+	padding: 20px 0px 10px 0px;
+	margin: 0;
+	float: left;
+}
+
+#content-stream h1 {
+	padding: 25px 20px 10px 20px;
+	margin: 0;
+	font-weight: normal;
+}
+
+#content-stream p {
+	padding: 15px 20px 20px 20px;
+	margin: 0;
+	text-align: justify;
+}
+
+/* BLOG START */
+#content-stream h1 {
+	padding: 25px 20px 5px 20px;
+	margin: 0;
+	font-weight: normal;
+}
+
+#content-stream h2 {
+	padding: 25px 20px 5px 20px;
+	margin: 0;
+	font-weight: normal;
+}
+
+#content-stream .blog h3 {
+	padding: 0px 20px 20px 20px;
+	margin: 0;
+	font-size: 120%;
+	font-weight: normal;
+}
+
+
+#content-stream .blog h5 {
+	padding: 0px 20px 20px 20px;
+	margin: 0;
+	font-size: 80%;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#content-stream .blog h4 {
+	padding: 0px 20px 20px 20px;
+	margin: 0;
+	font-size: 120%;
+	font-weight: normal;
+}
+
+#content-stream .blog p {
+	padding: 5px 20px 20px 20px;
+	margin: 0;
+}
+
+#content-stream .blog img {
+	padding: 5px 10px 0px 0px;
+	margin: 0;
+	float: left;
+}
+
+
+#content-stream .blog .nav a {
+	padding: 5px;
+	font-size: 110%;
+	text-decoration: none;
+}
+
+#content-stream .blog .nav a.select {
+	background-color: #ebebeb;
+}
+
+
+/* BLOG END */
+
+#content-stream .part0 {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+}
+	
+#content-stream .side-bar {
+	width: 192px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+
+#content-stream .text-block {
+	width: 740px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+
+
+/* -=-=-=- Hacks -=-=-=- */
+hr {
+	border: 0 hidden;
+	border-bottom: 1px solid #dddddd;
+	height: 0;
+	clear: both;
+	margin: 5px 0px 10px 0px;
+	padding: 10px 0px 0px 0px;
+	width: 100%;
+	float: left;
+}
+
+.jumpfix {
+	clear: both; width: 100%; 
+}
+
+img {
+	border-width: 0px;	
+	border: none;
+   	display: block; 
+}
+	
+.clearfix:after { /* float hack used to float content correctly */
+    content: "."; 
+   	display: block; 
+   	height: 0; 
+   	clear: both; 
+    visibility: hidden;
+	}
+
+#siteSub {
+   display:none;	
+}
+
+.wl-entry-footer {
+   display:none;	
+}
+
+
+.wl-summary-footer {
+   display:none;	
+}
+
+.wl-comments {
+   display:none;	
+}
+
+.printfooter {
+   display:none;	
+}
+
+#p-wikilogcalendar {
+  margin-left: 32px;	
+	
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+
